@@ -1,0 +1,88 @@
+.menu {
+	display: flex;
+	gap: 5%;
+	background-color: #839aeb;
+	padding: 30px;
+	align-items: center;
+	font-size: 150%;
+	color:black;
+
+}
+
+
+.logoTitulo {
+	margin-left: 65%;
+}
+
+body {
+	margin: 0px;
+	background-color: #5c5e66;
+}
+
+h2 {
+	font-size: 300%;
+}
+
+.imagenInicio{
+	background-image: url("https://picsum.photos/1800/635.jpg");
+	padding: 20%;
+}
+
+.popular {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.fotosPopular{
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+ 	gap: 40px;
+ 	justify-items: center;
+}
+
+
+.tarjetaPopular{
+	width: 70%;
+	background: #fff;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+	display: flex;
+	flex-direction: column;
+}
+
+.tarjetaPopular img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.tituloPopular {
+	background: rgba(173, 216, 230, 0.8);
+	padding: 8px 12px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.imgPopular {
+	position: relative;
+	background: #8a2be2;
+}
+
+.subtituloPopular {
+	text-align: center;
+	padding: 8px 0;
+	background: #8a2be2;
+	font-size: 1rem;
+	color: black;
+}
+
+.textoPopular {
+	padding: 10px;
+	background: #8a2be2;
+	font-size: 0.9rem;
+	color: black;
+}
+
+
