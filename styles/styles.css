@@ -238,6 +238,7 @@ footer {
 	width: 170px;
 }
 
+
 h4{
 	margin-top: 0px;
 	margin-bottom: 10px;
@@ -346,6 +347,11 @@ h4{
 		padding-bottom: 2%;
 		border-top: 2px solid #0c3d66;
 		border-bottom: 2px solid #0c3d66;
+		cursor: pointer;
+	}
+
+	.botonMenu:hover; {
+		background-color: red;
 	}
 
 	.footerMenu2 {
