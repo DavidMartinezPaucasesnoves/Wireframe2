@@ -6,6 +6,7 @@
 	align-items: center;
 	font-size: 150%;
 	color:black;
+	border-style: solid;
 
 }
 
@@ -35,6 +36,7 @@ h3 {
 .imagenInicio{
 	background-image: url("https://picsum.photos/1800/635.jpg");
 	padding: 20%;
+	background-size: cover;
 }
 
 .popular {
@@ -177,6 +179,7 @@ table {
 
 footer {
 	background-color: #839aeb;
+	border-style: solid;
 }
 
 .footerMenu1 {
@@ -350,8 +353,8 @@ h4{
 		cursor: pointer;
 	}
 
-	.botonMenu:hover; {
-		background-color: red;
+	.botonMenu:hover {
+		background-color: #6631d7;
 	}
 
 	.footerMenu2 {
